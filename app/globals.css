@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle_wrapper{
+  padding:15px;
+  border-radius: 50%;
+  background-color: #efefef;
+  cursor: pointer;
+}
+.herocircle{
+  background: #ffece3;
+  
+  z-index: -1;
+}
+
+h1{
+  
+}

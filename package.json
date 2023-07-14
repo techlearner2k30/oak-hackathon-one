@@ -1,0 +1,48 @@
+{
+  "name": "oak-hackathon-one",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/client": "^6.1.5",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/preview-kit": "^2.3.0",
+    "@sanity/vision": "^3.14.0",
+    "@stripe/stripe-js": "^1.54.1",
+    "@types/node": "20.2.5",
+    "@types/react": "18.2.7",
+    "@types/react-dom": "18.2.4",
+    "@vercel/postgres": "^0.4.0",
+    "autoprefixer": "10.4.14",
+    "cookie": "^0.5.0",
+    "drizzle-orm": "^0.27.0",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "next": "^13.4.4",
+    "next-sanity": "^4.3.3",
+    "pg": "^8.11.1",
+    "postcss": "8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.9.0",
+    "sanity": "^3.14.0",
+    "stripe": "^12.11.0",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4",
+    "use-cookie-state": "^2.0.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pg": "^8.10.2",
+    "drizzle-kit": "^0.19.3"
+  }
+}
